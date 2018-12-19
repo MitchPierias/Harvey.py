@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+	width: 100vw !important;
+	height: 100vh !important;
+	color: rgb(22, 23, 26);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+header {
+	flex: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(22, 23, 26);
+	color: rgb(163, 175, 191);
+	font-weight: 400;
+	font-size: 16px;
+}
+
+header h1 {
+	color: rgb(255,255,255);
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0.5vmin;
+}
+
+section {
+	flex: 10 2;
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+header, section {
+	padding: 1vmin;
+}
+
+.message-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 1vmin;
+}
+
+.message-container textarea {
+	align-self: stretch;
+}
+
+.card {
+	color: rgb(22, 23, 26);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 2vmin;
+	margin: 2vmin;
+	border-radius: 12px;
+	outline-color: rgb(22, 23, 26);
+	box-shadow: rgba(22, 23, 26, 0.15) 0px 4px 12px 0px;
+}
+
+ul {
+	color: rgb(130, 140, 153);
+}
+
+ul li {
+	margin-left: 22px;
+	text-decoration: none;
+}
+
+a {
+	color: rgb(0, 213, 189);
+	text-decoration: none;
+}
+
+textarea, input, button {
+	border-radius: 8px;
+	outline: none;
+	border: none;
+}
+
+textarea {
+	border: 1px solid grey;
+	padding: 12px 16px;
+}
+
+button {
+	background-color: rgb(0, 213, 189);
+	background-image: radial-gradient(at left top, rgb(0, 213, 189) 0%, rgb(0, 184, 139) 100%);
+	padding: 12px 16px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(255,255,255);
+	word-break: keep-all;
+	text-align: center;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: rgba(22, 23, 26, 0.15) 0px 4px 12px 0px;
+}
